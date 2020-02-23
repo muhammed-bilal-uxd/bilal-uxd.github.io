@@ -1,0 +1,21 @@
+.socialIcons{
+    font-size: 32px;
+    width: 100%;
+    a{
+        margin-right: 15px;
+        text-decoration: none;
+        color: #d3d3d3;
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+.showCase{
+    img{
+        width: 100%;
+        padding: 0px 0px 50px 0px;
+        margin: 0px 0px 50px 0px;
+        border-bottom: 1px solid #eee;
+    }
+}
