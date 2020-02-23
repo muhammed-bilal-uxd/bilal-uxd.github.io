@@ -3,8 +3,7 @@
     "name": "startbootstrap-resume",
     "version": "5.0.8",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch",
-        "sass":"sass --watch scss/custom.scss:css/custom.css"
+        "start": "node_modules/.bin/gulp watch"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [

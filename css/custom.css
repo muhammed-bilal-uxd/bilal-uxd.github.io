@@ -1,12 +1,20 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
 .socialIcons {
   font-size: 32px;
   width: 100%;
 }
+
 .socialIcons a {
   margin-right: 15px;
   text-decoration: none;
   color: #d3d3d3;
 }
+
 .socialIcons a:hover {
   color: white;
 }
@@ -17,5 +25,3 @@
   margin: 0px 0px 50px 0px;
   border-bottom: 1px solid #eee;
 }
-
-/*# sourceMappingURL=custom.css.map */
