@@ -10,7 +10,7 @@
 }
 
 .socialIcons a {
-  margin-right: 15px;
+  margin-right: 5px;
   text-decoration: none;
   color: #d3d3d3;
 }
@@ -24,4 +24,27 @@
   padding: 0px 0px 50px 0px;
   margin: 0px 0px 50px 0px;
   border-bottom: 1px solid #eee;
+}
+
+.socialIcons svg {
+  fill:#d3d3d3;
+  height: 35px;
+  width: 35px;
+}
+
+.socialIcons a:hover svg {
+  fill:#ffffff;
+}
+
+.socialIcons a svg.facebook{
+  height: 32px;
+  margin-left: -5px;
+}
+
+.socialIcons a svg.github{
+  height: 30px;
+}
+
+.socialIcons a svg.linkedIn{
+  height: 32px;
 }
