@@ -1,17 +1,22 @@
 $highlightColor: #bd5d38;
 
 .social-icons {
-  font-size: 32px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
 
   a {
-    margin-right: 15px !important;
     text-decoration: none;
     color: #d3d3d3 !important;
     background-color: #dddddd;
+    font-size: 32px;
+    margin: 0;
 
     &:hover {
       color: white !important;
+      background-color: #eeeeee;
     }
   }
 }
@@ -27,8 +32,13 @@ $highlightColor: #bd5d38;
 
 .page-title {
   color: $highlightColor;
+  letter-spacing: 1px;
 }
 
 .page-big-title {
   color: $highlightColor;
+}
+
+.contact-content {
+  font-size: 1.5rem;
 }
