@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server",
-    "scss": " node-sass -w scss/ -o css/"
+    "scss": " node-sass -w assets/scss/ -o assets/css/"
   },
   "author": "Muhammed Bilal",
   "license": "ISC",
