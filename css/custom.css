@@ -1,50 +1,22 @@
-/*!
- * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
-
-.socialIcons {
+.social-icons {
   font-size: 32px;
-  width: 100%;
-}
+  width: 100%; }
+  .social-icons a {
+    margin-right: 15px !important;
+    text-decoration: none;
+    color: #d3d3d3 !important;
+    background-color: #dddddd; }
+    .social-icons a:hover {
+      color: white !important; }
 
-.socialIcons a {
-  margin-right: 5px;
-  text-decoration: none;
-  color: #d3d3d3;
-}
-
-.socialIcons a:hover {
-  color: white;
-}
-
-.showCase img {
+.show-case img {
   width: 100%;
   padding: 0px 0px 50px 0px;
   margin: 0px 0px 50px 0px;
-  border-bottom: 1px solid #eee;
-}
+  border-bottom: 1px solid #eee; }
 
-.socialIcons svg {
-  fill:#d3d3d3;
-  height: 35px;
-  width: 35px;
-}
+.page-title {
+  color: #bd5d38; }
 
-.socialIcons a:hover svg {
-  fill:#ffffff;
-}
-
-.socialIcons a svg.facebook{
-  height: 32px;
-  margin-left: -5px;
-}
-
-.socialIcons a svg.github{
-  height: 30px;
-}
-
-.socialIcons a svg.linkedIn{
-  height: 32px;
-}
+.page-big-title {
+  color: #bd5d38; }

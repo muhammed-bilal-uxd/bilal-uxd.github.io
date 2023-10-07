@@ -1,0 +1,14 @@
+{
+  "name": "bilal-uxd.github.io",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "scss": " node-sass -w scss/ -o css/"
+  },
+  "author": "Muhammed Bilal",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
