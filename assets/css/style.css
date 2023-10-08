@@ -140,7 +140,11 @@ a {
     color: #d3d3d3 !important;
     background-color: #dddddd;
     font-size: 32px;
-    margin: 0; }
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal; }
     .social-icons a:hover {
       color: white !important;
       background-color: #eeeeee; }

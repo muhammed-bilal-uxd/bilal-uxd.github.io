@@ -20,6 +20,10 @@ $highlightColor: #bd5d38;
     background-color: #dddddd;
     font-size: 32px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
 
     &:hover {
       color: white !important;
