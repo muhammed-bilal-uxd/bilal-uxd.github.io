@@ -164,3 +164,10 @@ a {
 
 .contact-content {
   font-size: 1.5rem; }
+
+.contact-label {
+  color: red; }
+
+h1 {
+  font-size: 6rem;
+  line-height: 125%; }
