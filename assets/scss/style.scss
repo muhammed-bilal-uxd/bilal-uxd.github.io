@@ -1,11 +1,12 @@
-@import "variables.scss";
-@import "mixins.scss";
-@import "global.scss";
-@import "nav.scss";
-@import "resume-item.scss";
-@import "bootstrap-overrides.scss";
+@use "sass:color";
+@use "variables" as *;
+@use "mixins" as *;
+@use "global" as *;
+@use "nav" as *;
+@use "resume-item" as *;
+@use "bootstrap-overrides" as *;
 
-$highlightColor: #bd5d38;
+$highlightColor: $primary;
 
 .social-icons {
   width: 100%;
@@ -16,8 +17,8 @@ $highlightColor: #bd5d38;
 
   a {
     text-decoration: none;
-    color: #d3d3d3 !important;
-    background-color: #dddddd;
+    color: $gray-200 !important;
+    background-color: $gray-300;
     font-size: 32px;
     margin: 0;
     display: flex;
@@ -26,8 +27,8 @@ $highlightColor: #bd5d38;
     line-height: normal;
 
     &:hover {
-      color: white !important;
-      background-color: #eeeeee;
+      color: $white !important;
+      background-color: $gray-200;
     }
   }
 }
@@ -61,4 +62,29 @@ $highlightColor: #bd5d38;
 h1 {
   font-size: 6rem;
   line-height: 125%;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills-container {
+  .td {
+    font-size: 1rem;
+    &.td-0 {
+      font-weight: bold;
+    }
+  }
+}
+
+.aaa-container {
+  display: flex;
+  .bbb-container {
+    display: flex;
+    .ccc-container {
+      display: block;
+    }
+  }
 }

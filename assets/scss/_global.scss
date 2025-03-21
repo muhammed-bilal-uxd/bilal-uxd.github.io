@@ -1,14 +1,23 @@
+@use "sass:color";
+@use "variables" as *;
+@use "mixins" as *;
+
 // Global styling for this template
+
+:root {
+  --sidebar-width: #{$sidebar-base-width};
+}
 
 body {
   @include body-font;
-  padding-top: 54px;
+  padding-block-start: 54px;
   color: $gray-600;
 }
+
 @media (min-width: 992px) {
   body {
-    padding-top: 0;
-    padding-left: $sidebar-base-width;
+    padding-block-start: 0;
+    padding-inline-start: var(--sidebar-width);
   }
 }
 
@@ -51,19 +60,21 @@ p.lead {
 
 .social-icons {
   a {
-    display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    block-size: 3.5rem;
+    inline-size: 3.5rem;
     background-color: $gray-700;
     color: $white !important;
     border-radius: 100%;
-    text-align: center;
     font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin-right: 1rem;
+    margin-inline-end: 1rem;
+
     &:last-child {
-      margin-right: 0;
+      margin-inline-end: 0;
     }
+
     &:hover {
       background-color: $primary;
     }
