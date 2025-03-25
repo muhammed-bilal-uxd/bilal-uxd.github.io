@@ -178,6 +178,7 @@ a:hover, a:focus, a:active {
   flex-direction: row;
   justify-content: center;
   gap: 15px;
+  display: none;
 }
 .social-icons a {
   text-decoration: none;
@@ -237,14 +238,9 @@ h1 {
   font-weight: bold;
 }
 
-.aaa-container {
-  display: flex;
-}
-.aaa-container .bbb-container {
-  display: flex;
-}
-.aaa-container .bbb-container .ccc-container {
-  display: block;
+.nav-link:focus,
+.nav-link:hover {
+  color: #ffffff !important;
 }
 
 /*# sourceMappingURL=style.css.map */
