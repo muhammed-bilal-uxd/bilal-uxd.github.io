@@ -1,4 +1,7 @@
-function getYearMonthDifference(startDate, endDate) {
+function getYearMonthDifference(
+  startDate: Date,
+  endDate: Date
+): { years: number; months: number } {
   // Calculate the total number of months difference
   let totalMonths =
     (endDate.getFullYear() - startDate.getFullYear()) * 12 +
@@ -15,7 +18,7 @@ function getYearMonthDifference(startDate, endDate) {
   return { years, months };
 }
 
-function updateYearsDifference() {
+function updateYearsDifference(): void {
   // Get the element with the date attribute
   const dateElement = document.getElementById("years");
   if (!dateElement) return;
