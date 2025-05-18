@@ -40,7 +40,8 @@ function updateYearsDifference() {
     : difference.years;
 
   // Update the inner HTML with the result
-  dateElement.innerHTML = `${adjustedYears} years and ${difference.months} months.`;
+  dateElement.innerHTML = `${adjustedYears} years`;
+  // dateElement.innerHTML = `${adjustedYears} years and ${difference.months} months.`;
 }
 
 // Call the method to update the element

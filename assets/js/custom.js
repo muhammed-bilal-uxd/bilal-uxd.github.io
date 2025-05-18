@@ -32,7 +32,8 @@ function updateYearsDifference() {
         ? difference.years - parseInt(yearLoss)
         : difference.years;
     // Update the inner HTML with the result
-    dateElement.innerHTML = "".concat(adjustedYears, " years and ").concat(difference.months, " months.");
+    dateElement.innerHTML = "".concat(adjustedYears, " years");
+    // dateElement.innerHTML = `${adjustedYears} years and ${difference.months} months.`;
 }
 // Call the method to update the element
 updateYearsDifference();
