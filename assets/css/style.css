@@ -76,14 +76,14 @@ p.lead {
   margin-inline-end: 0;
 }
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #b8baa2;
 }
 
 .dev-icons {
   font-size: 3rem;
 }
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #b8baa2;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -92,7 +92,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: rgb(203.5142857143, 115.2530612245, 81.2357142857);
+  outline-color: rgb(194.65, 196.35, 175.95);
 }
 
 @media (min-width: 992px) {
@@ -158,18 +158,18 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #b8baa2 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #b8baa2 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #b8baa2;
 }
 a:hover, a:focus, a:active {
-  color: rgb(160.65, 79.05, 47.6) !important;
+  color: rgb(161.1222222222, 163.7666666667, 132.0333333333) !important;
 }
 
 .social-icons {
@@ -204,12 +204,12 @@ a:hover, a:focus, a:active {
 }
 
 .page-title {
-  color: #BD5D38;
+  color: #b8baa2;
   letter-spacing: 1px;
 }
 
 .page-big-title {
-  color: #BD5D38;
+  color: #b8baa2;
 }
 
 .contact-content {
@@ -241,6 +241,10 @@ h1 {
 .nav-link:focus,
 .nav-link:hover {
   color: #ffffff !important;
+}
+
+.skill-group h4 {
+  letter-spacing: 0.05rem;
 }
 
 /*# sourceMappingURL=style.css.map */
