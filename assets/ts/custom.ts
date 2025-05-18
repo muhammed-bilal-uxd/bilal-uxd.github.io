@@ -22,6 +22,7 @@ function updateYearsDifference() {
 
   // Retrieve the date string from the data-date attribute
   const dateString = dateElement.getAttribute("data-date");
+  const yearLoss = dateElement.getAttribute("data-year-loss");
   if (!dateString) return;
 
   // Convert the string to a Date object
@@ -33,8 +34,13 @@ function updateYearsDifference() {
   // Calculate the difference
   const difference = getYearMonthDifference(previousDate, today);
 
+  // Subtract the year loss if it exists
+  const adjustedYears = yearLoss
+    ? difference.years - parseInt(yearLoss)
+    : difference.years;
+
   // Update the inner HTML with the result
-  dateElement.innerHTML = `${difference.years} years and ${difference.months} months.`;
+  dateElement.innerHTML = `${adjustedYears} years and ${difference.months} months.`;
 }
 
 // Call the method to update the element
