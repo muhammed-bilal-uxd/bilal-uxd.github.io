@@ -13,9 +13,10 @@
   "author": "Muhammed Bilal",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.86.0"
   },
   "devDependencies": {
+    "sass": "^1.86.0",
+    "live-server": "^1.2.2",
     "typescript": "^5.8.2"
   }
 }
